@@ -1,13 +1,17 @@
 table, td, th {  
-    border: 1px solid #ddd;
-    text-align: left;
-  }
-  
-  table {
+    border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
-    width: 100%;
   }
   
-  th, td {
-    padding: 15px;
-  }
+ table
+ {
+     width: 50;
+ }
+ th
+ {
+     height: 70;
+ }
+ td
+ {
+    padding: 10px;
+ }
