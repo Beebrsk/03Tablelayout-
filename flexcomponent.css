@@ -1,0 +1,43 @@
+.flex-container
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    
+}
+.flex
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+.bg-red
+{
+    background-color: darkred;
+}
+.bg-blue
+{
+    background-color: rgb(112, 87, 255);
+}
+.flex-container>div
+{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+}
+.flex>div
+{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+}
+.content
+{
+    display:flex;
+    flex-direction:column;
+
+}
